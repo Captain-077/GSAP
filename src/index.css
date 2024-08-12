@@ -16,6 +16,10 @@ html,body{
   width: 100%;
   background-color: #111;
   padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
 }
 
 .box{
@@ -23,4 +27,24 @@ html,body{
   width: 300px;
   background-color: crimson;
   border-radius: 10px;
+}
+
+button{
+  padding: 20px 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+}
+button:active{
+  scale:0.95;
+}
+.circle{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: crimson;
+  margin-top: 50px;
 }
